@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* adding site styles */
+
+.hidden {display: none;}
+
+main {
+	width: 960px;
+	padding: 0 10px 10px 0;
+	margin: 0 auto;
+	/*border is temp -> just to ee site dimension */
+	border: thin dashed #333;
+	
+}
+#main-header {
+	display: flex;
+	flex-direction: row;
+}
+#main-nav{
+	height: 40px;
+	width: 290px;
+	background-color: #555434;
+	margin-bottom: 20px;
+}
+#sub-nav{
+	height: 40px;
+	width: 650px;
+	background-color: #23550b;
+
+}
+#logo {
+	margin-left: auto;
+	height: 100px;
+	width: 250px;
+	background-color: #f0aeae;
+
+}
+/* adding site styles */
+
+
+ #featured-contend{
+	display: flex;flex-direction: row;}
+
+.featured-image{
+	background-color: #3c4289;
+	width: 200px;
+	height: 300px;
+	margin-right: 60px;
+	margin-top: 30px;
+
+}
+
+#featured-image-description{
+	background-color: #75687a;
+	width: 700px;
+	height: 300px;
+	margin-right: 60px;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+#hero-image{
+	background-color: #3a5445;
+	width: 960px;
+	height: 200px;
+	margin-top: 30px;
+}
+
+/* social-media */
+
+#promo-container{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+#social-media {
+	display: flex;
+	flex-direction: row;
+	width: 330px;
+	margin-bottom: 40px;
+	justify-content: space-between;
+}
+
+
+#social-media div {
+	width: 100px;
+	height: 50px;
+	background-color: #e0b1cf;
+}
+
+#promo-text {
+	width: 330px;
+	height: 310px;
+	background-color: #251e40;
+}
+
+#promo-image {
+	width: 570px;
+	height: 400px;
+	background-color: #c7d6dc;
+	margin-left: auto;
+}
+
+#main-footer {
+	width: 960px;
+	margin: 20px auto 0 auto;
+	height: 40px;
+	background-color: #442916;
+}

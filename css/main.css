@@ -1,0 +1,30 @@
+body{font-family: 'Open Sans', Helvetica, Arial, sans-serif;}
+#container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+h1{
+	font-weight: 300;
+	font-size: 34px; /*could also use ems here if you want*/
+	color: #9bca73;
+	letter-spacing: 1px;
+}
+h3{
+	font-weight: 700;
+	font-size: 14px;
+	color: #738152;
+}
+p{
+	color: #6b6b69;
+	font-size: 17px;
+	line-height: 28px;
+	font-weight: 300;
+}
+.drop-cap{
+	font-size: 100px;
+	font-weight: 400px;
+	line-height: 70px;
+	float: left;
+	margin: 5px 10px 0 0;
+}
